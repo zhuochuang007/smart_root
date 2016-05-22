@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.zhuochuang.it</groupId>
+    <artifactId>smart.root</artifactId>
+    <version>${project.version}</version>
+  </parent>
+  <artifactId>smart.module</artifactId>
+  <name>smart.module</name>
+  <packaging>pom</packaging>
+  <modules>
+  	<module>smart.module.user.api</module>
+  	<module>smart.module.user.impl</module>
+  	<module>smart.module.role.api</module>
+  	<module>smart.module.role.impl</module>
+  	<module>smart.module.group.api</module>
+  	<module>smart.module.group.impl</module>
+  	<module>smart.module.scurity.api</module>
+  	<module>smart.module.scurity.impl</module>
+  	<module>smart.module.sitemap.impl</module>
+  	<module>smart.module.sitemap.api</module>
+  	<module>smart.module.htmlarea.api</module>
+  	<module>smart.module.htmlarea.impl</module>
+  	<module>smart.module.register.api</module>
+  	<module>smart.module.register.impl</module>
+  	<module>smart.module.excel.api</module>
+  	<module>smart.module.excel.impl</module>
+  	<module>smart.module.fileupload.api</module>
+  	<module>smart.module.fileupload.impl</module>
+  	<module>smart.module.exception.api</module>
+  	<module>smart.module.exception.impl</module>
+    <module>smart.module.quartz.api</module>
+    <module>smart.module.quartz.impl</module>
+  </modules>
+</project>
