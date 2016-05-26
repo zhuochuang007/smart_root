@@ -23,13 +23,11 @@ import com.zhuochuang.it.smart.util.WebResourcesUtil;
 public class ResourceFilter implements Filter
 {
     
-    @Override
     public void init(FilterConfig filterConfig)
         throws ServletException
     {
     }
     
-    @Override
     public void doFilter(ServletRequest req, ServletResponse resp, FilterChain chain)
         throws IOException, ServletException
     {
@@ -42,7 +40,6 @@ public class ResourceFilter implements Filter
         }
     }
     
-    @Override
     public void destroy()
     {
     }
